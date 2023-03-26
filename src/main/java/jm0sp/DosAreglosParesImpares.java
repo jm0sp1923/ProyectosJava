@@ -1,6 +1,6 @@
 package jm0sp;
 
-public class punto5{
+public class DosAreglosParesImpares{
    
     public static void main(String[] args) {
         System.out.print("Hola");     
