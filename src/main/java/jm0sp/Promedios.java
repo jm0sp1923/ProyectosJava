@@ -18,7 +18,7 @@ public class Promedios{
     
     void menu(){
     int opc = 0;
-    do{
+    do{ 
         System.out.println("1. Captura de numeros");
         System.out.println("2. Promedio posiciones pares");
         System.out.println("3. Promedio posiciones impares");

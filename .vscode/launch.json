@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DosAreglosParesImpares",
+            "request": "launch",
+            "mainClass": "jm0sp.DosAreglosParesImpares",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
             "name": "Arreglofactorial",
             "request": "launch",
             "mainClass": "jm0sp.Arreglofactorial",
