@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Arreglofactorial",
+            "request": "launch",
+            "mainClass": "jm0sp.Arreglofactorial",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "punto5",
+            "request": "launch",
+            "mainClass": "jm0sp.punto5",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "MayorMenor",
+            "request": "launch",
+            "mainClass": "jm0sp.MayorMenor",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "ArregloFactorial",
+            "request": "launch",
+            "mainClass": "jm0sp.ArregloFactorial",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "Promedios",
+            "request": "launch",
+            "mainClass": "jm0sp.Promedios",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "ArregloFActorial",
+            "request": "launch",
+            "mainClass": "jm0sp.ArregloFActorial",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciArray",
+            "request": "launch",
+            "mainClass": "jm0sp.FibonacciArray",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "Mavenproject1",
+            "request": "launch",
+            "mainClass": "jm0sp.Mavenproject1",
+            "projectName": "proyectonivelacion1"
+        },
+        {
+            "type": "java",
+            "name": "Punto4",
+            "request": "launch",
+            "mainClass": "jm0sp.Punto4",
+            "projectName": "proyectonivelacion1"
+        }
+    ]
+}
