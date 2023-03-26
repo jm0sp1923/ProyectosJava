@@ -37,6 +37,7 @@ public class DosAreglosParesImpares{
                 }
 
                 case 3:{
+                    numerosImpares();
                     break;
                 }
 
@@ -106,8 +107,35 @@ public class DosAreglosParesImpares{
         limpiarConsola();
     }
 
-
-
+            
+    void numerosImpares(){
+        int contador = 0;  
+        for(int i = 0; i<n;i++){
+            if(arreglo[i] % 2 != 0){
+                contador++;
+            }
+        } 
+       
+        int numerosImpares[] = new int[contador];  
+       
+        int j = 0;
+         for(int i = 0; i<n;i++){
+          if(arreglo[i] % 2 != 0){
+               numerosImpares[j] = arreglo[i];
+             j++;
+          }
+        }
+        limpiarConsola();
+        System.out.println("Los numeros pares son: ");
+        for(int i = 0;i<contador;i++){
+            
+            System.out.print(" ["+numerosImpares[i]+"] ");
+        }
+        System.out.println();
+        System.out.println("Presione enter para continuar...");
+        sc.nextLine();
+        limpiarConsola();
+    }
 
     public static void limpiarConsola() {  
         System.out.print("\033[H\033[2J");  
